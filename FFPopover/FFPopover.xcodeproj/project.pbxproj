@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3690E0661D2E230100CAD12E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3690E0651D2E230100CAD12E /* main.m */; };
+		3690E0691D2E230100CAD12E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3690E0681D2E230100CAD12E /* AppDelegate.m */; };
+		3690E06F1D2E230100CAD12E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3690E06D1D2E230100CAD12E /* Main.storyboard */; };
+		3690E0711D2E230100CAD12E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3690E0701D2E230100CAD12E /* Assets.xcassets */; };
+		3690E0741D2E230100CAD12E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3690E0721D2E230100CAD12E /* LaunchScreen.storyboard */; };
+		3690E07F1D2E230100CAD12E /* FFPopoverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3690E07E1D2E230100CAD12E /* FFPopoverTests.m */; };
+		3690E08A1D2E230100CAD12E /* FFPopoverUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3690E0891D2E230100CAD12E /* FFPopoverUITests.m */; };
+		3690E0A01D2E240200CAD12E /* FFColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3690E0991D2E240200CAD12E /* FFColorViewController.m */; };
+		3690E0A11D2E240200CAD12E /* FFHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3690E09B1D2E240200CAD12E /* FFHomeViewController.m */; };
+		3690E0A21D2E240200CAD12E /* FFMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3690E09D1D2E240200CAD12E /* FFMenuViewController.m */; };
+		3690E0A31D2E240200CAD12E /* FFSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3690E09F1D2E240200CAD12E /* FFSecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3690E07B1D2E230100CAD12E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3690E0591D2E230100CAD12E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3690E0601D2E230100CAD12E;
+			remoteInfo = FFPopover;
+		};
+		3690E0861D2E230100CAD12E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3690E0591D2E230100CAD12E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3690E0601D2E230100CAD12E;
+			remoteInfo = FFPopover;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3690E0611D2E230100CAD12E /* FFPopover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFPopover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3690E0651D2E230100CAD12E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3690E0671D2E230100CAD12E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3690E0681D2E230100CAD12E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3690E06E1D2E230100CAD12E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3690E0701D2E230100CAD12E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3690E0731D2E230100CAD12E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3690E0751D2E230100CAD12E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3690E07A1D2E230100CAD12E /* FFPopoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFPopoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3690E07E1D2E230100CAD12E /* FFPopoverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFPopoverTests.m; sourceTree = "<group>"; };
+		3690E0801D2E230100CAD12E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3690E0851D2E230100CAD12E /* FFPopoverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFPopoverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3690E0891D2E230100CAD12E /* FFPopoverUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFPopoverUITests.m; sourceTree = "<group>"; };
+		3690E08B1D2E230100CAD12E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3690E0981D2E240200CAD12E /* FFColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFColorViewController.h; sourceTree = "<group>"; };
+		3690E0991D2E240200CAD12E /* FFColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFColorViewController.m; sourceTree = "<group>"; };
+		3690E09A1D2E240200CAD12E /* FFHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFHomeViewController.h; sourceTree = "<group>"; };
+		3690E09B1D2E240200CAD12E /* FFHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFHomeViewController.m; sourceTree = "<group>"; };
+		3690E09C1D2E240200CAD12E /* FFMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFMenuViewController.h; sourceTree = "<group>"; };
+		3690E09D1D2E240200CAD12E /* FFMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFMenuViewController.m; sourceTree = "<group>"; };
+		3690E09E1D2E240200CAD12E /* FFSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFSecondViewController.h; sourceTree = "<group>"; };
+		3690E09F1D2E240200CAD12E /* FFSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFSecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3690E05E1D2E230100CAD12E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3690E0771D2E230100CAD12E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3690E0821D2E230100CAD12E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3690E0581D2E230100CAD12E = {
+			isa = PBXGroup;
+			children = (
+				3690E0631D2E230100CAD12E /* FFPopover */,
+				3690E07D1D2E230100CAD12E /* FFPopoverTests */,
+				3690E0881D2E230100CAD12E /* FFPopoverUITests */,
+				3690E0621D2E230100CAD12E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3690E0621D2E230100CAD12E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3690E0611D2E230100CAD12E /* FFPopover.app */,
+				3690E07A1D2E230100CAD12E /* FFPopoverTests.xctest */,
+				3690E0851D2E230100CAD12E /* FFPopoverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3690E0631D2E230100CAD12E /* FFPopover */ = {
+			isa = PBXGroup;
+			children = (
+				3690E0971D2E240200CAD12E /* Pages */,
+				3690E0671D2E230100CAD12E /* AppDelegate.h */,
+				3690E0681D2E230100CAD12E /* AppDelegate.m */,
+				3690E0641D2E230100CAD12E /* Supporting Files */,
+			);
+			path = FFPopover;
+			sourceTree = "<group>";
+		};
+		3690E0641D2E230100CAD12E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3690E06D1D2E230100CAD12E /* Main.storyboard */,
+				3690E0701D2E230100CAD12E /* Assets.xcassets */,
+				3690E0721D2E230100CAD12E /* LaunchScreen.storyboard */,
+				3690E0751D2E230100CAD12E /* Info.plist */,
+				3690E0651D2E230100CAD12E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3690E07D1D2E230100CAD12E /* FFPopoverTests */ = {
+			isa = PBXGroup;
+			children = (
+				3690E07E1D2E230100CAD12E /* FFPopoverTests.m */,
+				3690E0801D2E230100CAD12E /* Info.plist */,
+			);
+			path = FFPopoverTests;
+			sourceTree = "<group>";
+		};
+		3690E0881D2E230100CAD12E /* FFPopoverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3690E0891D2E230100CAD12E /* FFPopoverUITests.m */,
+				3690E08B1D2E230100CAD12E /* Info.plist */,
+			);
+			path = FFPopoverUITests;
+			sourceTree = "<group>";
+		};
+		3690E0971D2E240200CAD12E /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				3690E0981D2E240200CAD12E /* FFColorViewController.h */,
+				3690E0991D2E240200CAD12E /* FFColorViewController.m */,
+				3690E09A1D2E240200CAD12E /* FFHomeViewController.h */,
+				3690E09B1D2E240200CAD12E /* FFHomeViewController.m */,
+				3690E09C1D2E240200CAD12E /* FFMenuViewController.h */,
+				3690E09D1D2E240200CAD12E /* FFMenuViewController.m */,
+				3690E09E1D2E240200CAD12E /* FFSecondViewController.h */,
+				3690E09F1D2E240200CAD12E /* FFSecondViewController.m */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3690E0601D2E230100CAD12E /* FFPopover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3690E08E1D2E230100CAD12E /* Build configuration list for PBXNativeTarget "FFPopover" */;
+			buildPhases = (
+				3690E05D1D2E230100CAD12E /* Sources */,
+				3690E05E1D2E230100CAD12E /* Frameworks */,
+				3690E05F1D2E230100CAD12E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FFPopover;
+			productName = FFPopover;
+			productReference = 3690E0611D2E230100CAD12E /* FFPopover.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3690E0791D2E230100CAD12E /* FFPopoverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3690E0911D2E230100CAD12E /* Build configuration list for PBXNativeTarget "FFPopoverTests" */;
+			buildPhases = (
+				3690E0761D2E230100CAD12E /* Sources */,
+				3690E0771D2E230100CAD12E /* Frameworks */,
+				3690E0781D2E230100CAD12E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3690E07C1D2E230100CAD12E /* PBXTargetDependency */,
+			);
+			name = FFPopoverTests;
+			productName = FFPopoverTests;
+			productReference = 3690E07A1D2E230100CAD12E /* FFPopoverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3690E0841D2E230100CAD12E /* FFPopoverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3690E0941D2E230100CAD12E /* Build configuration list for PBXNativeTarget "FFPopoverUITests" */;
+			buildPhases = (
+				3690E0811D2E230100CAD12E /* Sources */,
+				3690E0821D2E230100CAD12E /* Frameworks */,
+				3690E0831D2E230100CAD12E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3690E0871D2E230100CAD12E /* PBXTargetDependency */,
+			);
+			name = FFPopoverUITests;
+			productName = FFPopoverUITests;
+			productReference = 3690E0851D2E230100CAD12E /* FFPopoverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3690E0591D2E230100CAD12E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "张玲玉";
+				TargetAttributes = {
+					3690E0601D2E230100CAD12E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					3690E0791D2E230100CAD12E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3690E0601D2E230100CAD12E;
+					};
+					3690E0841D2E230100CAD12E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3690E0601D2E230100CAD12E;
+					};
+				};
+			};
+			buildConfigurationList = 3690E05C1D2E230100CAD12E /* Build configuration list for PBXProject "FFPopover" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3690E0581D2E230100CAD12E;
+			productRefGroup = 3690E0621D2E230100CAD12E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3690E0601D2E230100CAD12E /* FFPopover */,
+				3690E0791D2E230100CAD12E /* FFPopoverTests */,
+				3690E0841D2E230100CAD12E /* FFPopoverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3690E05F1D2E230100CAD12E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3690E0741D2E230100CAD12E /* LaunchScreen.storyboard in Resources */,
+				3690E0711D2E230100CAD12E /* Assets.xcassets in Resources */,
+				3690E06F1D2E230100CAD12E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3690E0781D2E230100CAD12E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3690E0831D2E230100CAD12E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3690E05D1D2E230100CAD12E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3690E0A01D2E240200CAD12E /* FFColorViewController.m in Sources */,
+				3690E0A11D2E240200CAD12E /* FFHomeViewController.m in Sources */,
+				3690E0A31D2E240200CAD12E /* FFSecondViewController.m in Sources */,
+				3690E0A21D2E240200CAD12E /* FFMenuViewController.m in Sources */,
+				3690E0691D2E230100CAD12E /* AppDelegate.m in Sources */,
+				3690E0661D2E230100CAD12E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3690E0761D2E230100CAD12E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3690E07F1D2E230100CAD12E /* FFPopoverTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3690E0811D2E230100CAD12E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3690E08A1D2E230100CAD12E /* FFPopoverUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3690E07C1D2E230100CAD12E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3690E0601D2E230100CAD12E /* FFPopover */;
+			targetProxy = 3690E07B1D2E230100CAD12E /* PBXContainerItemProxy */;
+		};
+		3690E0871D2E230100CAD12E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3690E0601D2E230100CAD12E /* FFPopover */;
+			targetProxy = 3690E0861D2E230100CAD12E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3690E06D1D2E230100CAD12E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3690E06E1D2E230100CAD12E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3690E0721D2E230100CAD12E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3690E0731D2E230100CAD12E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3690E08C1D2E230100CAD12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		3690E08D1D2E230100CAD12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3690E08F1D2E230100CAD12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FFPopover/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zly.FFPopover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3690E0901D2E230100CAD12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FFPopover/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zly.FFPopover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3690E0921D2E230100CAD12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FFPopoverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zly.FFPopoverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FFPopover.app/FFPopover";
+			};
+			name = Debug;
+		};
+		3690E0931D2E230100CAD12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FFPopoverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zly.FFPopoverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FFPopover.app/FFPopover";
+			};
+			name = Release;
+		};
+		3690E0951D2E230100CAD12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FFPopoverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zly.FFPopoverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FFPopover;
+			};
+			name = Debug;
+		};
+		3690E0961D2E230100CAD12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FFPopoverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zly.FFPopoverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FFPopover;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3690E05C1D2E230100CAD12E /* Build configuration list for PBXProject "FFPopover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3690E08C1D2E230100CAD12E /* Debug */,
+				3690E08D1D2E230100CAD12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3690E08E1D2E230100CAD12E /* Build configuration list for PBXNativeTarget "FFPopover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3690E08F1D2E230100CAD12E /* Debug */,
+				3690E0901D2E230100CAD12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3690E0911D2E230100CAD12E /* Build configuration list for PBXNativeTarget "FFPopoverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3690E0921D2E230100CAD12E /* Debug */,
+				3690E0931D2E230100CAD12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3690E0941D2E230100CAD12E /* Build configuration list for PBXNativeTarget "FFPopoverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3690E0951D2E230100CAD12E /* Debug */,
+				3690E0961D2E230100CAD12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3690E0591D2E230100CAD12E /* Project object */;
+}
