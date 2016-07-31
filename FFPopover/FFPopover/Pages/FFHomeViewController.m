@@ -77,4 +77,15 @@
     NSLog(@"popover dismiss");
 }
 
+#pragma mark - UIPopoverPresentationController
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    FFSecondViewController *vc=[[FFSecondViewController alloc]init];
+    vc.modalPresentationStyle=UIModalPresentationPopover;
+    vc.popoverPresentationController.sourceView=self.btnModal;
+    vc.popoverPresentationController.sourceRect=self.btnModal.bounds;
+    [self presentViewController:vc animated:YES completion:nil];
+}
+
 @end
